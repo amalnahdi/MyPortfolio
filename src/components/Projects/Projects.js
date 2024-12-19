@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Data-governance"
+              description="A collaborative chat platform designed to serve as a personal workspace or social hub for resource sharing and real-time interactions. Built using React.js, Material-UI, and Firebase, it incorporates advanced functionalities such as real-time messaging, image sharing, and message reactions. My contributions focused on implementing secure user authentication through JSON Web Tokens (JWT), ensuring robust access control and session management. Additionally, I developed the profile management system, enabling users to customize and manage their personal profiles seamlessly while maintaining a high standard of security and data integrity."
+              ghLink="https://github.com/ibrahim-kh-1999/PiTitans.git"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="DEVOPS"
+              description="A comprehensive DevOps project focused on automating software delivery pipelines and enhancing system observability. The project involved setting up a robust CI/CD pipeline using Jenkins to automate build, test, and deployment processes. Docker and Docker Compose were utilized to containerize the application and manage multi-container environments efficiently. Nexus was integrated as an artifact repository for secure and streamlined dependency management. Additionally, Prometheus and Grafana were implemented to monitor system performance and visualize metrics, ensuring real-time observability and reliability of the infrastructure. This project exemplifies the adoption of modern DevOps practices to achieve scalability, resilience, and operational efficiency."
+              ghLink="https://github.com/amalnahdi/ProjetEvent.git"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -48,9 +48,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="Developed a microservices-based architecture with two services: one built using Spring Boot and MySQL, and the other with Node.js and PostgreSQL. Implemented service discovery using Eureka Server to enable dynamic routing and ensure seamless communication between microservices."
+              ghLink="https://github.com/amalnahdi/StationSKI-MSC.git"
+              demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -59,20 +59,21 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              description="Designed and developed a PFE project leveraging Python and Laravel to create a job-matching platform that connects potential employees with suitable opportunities based on their skills. The system also includes a feature for generating professional CVs, ensuring an efficient and personalized user experience."
+              ghLink="https://github.com/amalnahdi/worker_rank.git"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
+          {/* Hidden Projects */}
+          {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace and thus helping in suicide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -81,12 +82,11 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and TensorFlow backend. The classifier successfully predicted various types of human emotions. The highest accuracy obtained with the model was 60.1%. Then used OpenCV to detect the face in an image and pass the face to the classifier to predict the person's emotion."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+          */}
         </Row>
       </Container>
     </Container>
